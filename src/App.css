@@ -25,3 +25,19 @@ h2 {
 h3 {
     font-size: 20px;
 }
+
+@media only screen and (max-width: 400px){
+
+    .image-container {
+        padding: 0 10px;
+    }
+
+    .App .hero h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+        padding: 0 15px;
+    }
+}
